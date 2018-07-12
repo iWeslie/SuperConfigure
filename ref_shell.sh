@@ -39,3 +39,9 @@ echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
 echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
 sysctl -p
 sysctl net.ipv4.tcp_available_congestion_control
+
+# Add user for Shadowsocks
+vi /etc/shadowsocks.json 
+firewall-cmd --add-port 9993/tcp --permanent
+firewall-cmd --add-port 9993/tcp
+/etc/init.d/shadowsocks restart
