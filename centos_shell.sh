@@ -1,5 +1,5 @@
 yum update
-yum -y install tree vim git autoconf wget git gcc net-tools vim-enhanced dos2unix nmap
+yum -y install tree vim git autoconf wget git gcc net-tools vim-enhanced dos2unix nmap firewalld
 
 
 touch ~/.vimrc

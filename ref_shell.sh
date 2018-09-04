@@ -1,6 +1,10 @@
 # Test Download Speed
 wget -qO- bench.sh | bash
 
+# Test Download Speed in China
+wget https://raw.githubusercontent.com/oooldking/script/master/superbench.sh
+chmod +x superbench.sh
+./superbench.sh
 
 # Modify SS Connection Port and Restart SSserver
 vi /etc/shadowsocks-python/config.json
@@ -14,6 +18,7 @@ vi /etc/ssh/sshd_config
 firewall-cmd --add-port 13825/tcp --permanent
 firewall-cmd --add-port 13825/tcp
 service sshd restart
+systemctl restart sshd.service
 
 
 # Deploy SS
