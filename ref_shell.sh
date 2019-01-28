@@ -33,7 +33,8 @@ echo "net.ipv4.tcp_fastopen = 3" >> /etc/sysctl.conf
 
 
 # Deploy serverspeeder
-wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder-v.sh && bash serverspeeder-v.sh CentOS 7.2 3.10.0-327.el7.x86_64 x64 3.11.20.5 serverspeeder_72327
+wget --no-check-certificate -O rskernel.sh https://raw.githubusercontent.com/uxh/shadowsocks_bash/master/rskernel.sh && bash rskernel.sh
+yum install net-tools -y && wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh && bash appex.sh install
 
 # BBR Accelerate
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
@@ -46,7 +47,7 @@ sysctl -p
 sysctl net.ipv4.tcp_available_congestion_control
 
 # Add user for Shadowsocks
-vi /etc/shadowsocks.json 
+vi /etc/shadowsocks.json
 firewall-cmd --add-port 9993/tcp --permanent
 firewall-cmd --add-port 9993/tcp
 /etc/init.d/shadowsocks restart

@@ -18,7 +18,6 @@ apm install minimap
 apm install autocomplete-paths
 apm install browser-refresh-on-save
 apm install open-in-browser
-apm install overscroll
 apm install goto-definition
 apm install react
 apm install atom-ternjs
