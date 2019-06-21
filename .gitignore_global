@@ -1,0 +1,45 @@
+*~
+.DS_Store
+
+build/
+DerivedData/
+xcuserdata/
+
+*.xcworkspace
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+.build/
+
+# CocoaPods
+Pods
+!Podfile
+Podfile.lock
+
+# Carthage
+Carthage/Checkouts
+Carthage/Build
+
+Podfile.lock
+.gitignore
+
+# Large file
+**/*.mlmodel

@@ -1,0 +1,2 @@
+kill $(pgrep Xvnc)
+vncserver

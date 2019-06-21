@@ -1,0 +1,41 @@
+{
+    "materialTheme.autoApplyIcons": true,
+    "material-icon-theme.folders.color": "#ef5350",
+    "editor.fontSize": 14,
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "One Dark Pro",
+    "matlab.mlintpath": "/Applications/MATLAB_R2018a.app/bin/maci64/mlint",
+    "matlab-runner.matlabPath": "/Applications/MATLAB_R2018a.app/bin/matlab",
+    "matlab-runner.tempFilePath": "/Users/weslie/Documents/matlabtemp.m",
+    "swift.path.sourcekite": "/Users/weslie/Desktop/GitHub/sourcekite/.build/release/sourcekite",
+    "window.zoomLevel": 0,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "terminal.integrated.fontFamily": "Meslo LG S for Powerline",
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "mssql.connections": [
+        {
+            "server": "localhost",
+            "database": "",
+            "authenticationType": "SqlLogin",
+            "user": "sa",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "profile"
+        }
+    ],
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3",
+    "python.jediEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.linting.pylintEnabled": true,
+    "dart.flutterSdkPath": "/Users/weslie/Desktop/GitHub/flutter",
+    "leetcode.defaultLanguage": "python",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "files.trimTrailingWhitespace": true
+}
